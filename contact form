@@ -1,0 +1,99 @@
+
+<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="State">State</label>
+      </div>
+      <div class="col-75">
+        <select id="State" name="State">
+         <option value="alabama">AL</option>
+		 <option value="alaska">AK</option>
+         <option value="american samoa">AS</option>
+		 <option value="arizona">AR</option>
+		 <option value="california">CA</option>
+		 <option value="colorado">CO</option>
+		 <option value="connecticut">CT</option>
+		 <option value="delaware">DE</option>
+		 <option value="district of columbia">DC</option>
+		 <option value="federated states of Micronesia">FM</option>
+		 <option value="florida">FL</option>
+		 <option value="georgia">GA</option>
+		 <option value="guam">GU</option>
+		 <option value="hawaii">HI</option>
+		 <option value="idaho">ID</option>
+		 <option value="illinois">IL</option>
+		 <option value="indiana">IN</option>
+		 <option value="iowa">IA</option>
+		 <option value="kansas">KS</option>
+		 <option value="kentucky">KY</option>
+		 <option value="louisiana">LA</option>
+		 <option value="maine">ME</option>
+		 <option value="marshall islands">MH</option>
+		 <option value="maryland">MD</option>
+		 <option value="massachusetts">MA</option>
+		 <option value="">MI</option>
+		 <option value="minnesota">MN</option>
+		 <option value="mississippi">MS</option>
+		 <option value="missouri">MO</option>
+		 <option value="montana">MT</option>
+		 <option value="nebraska">NE</option>
+		 <option value="nevada">NV</option>
+		 <option value="new hampshire">NH</option>
+		 <option value="new jersey">NJ</option>
+		 <option value="new mexico">NM</option>
+		 <option value="new york">NY</option>
+		 <option value="north carolina">NC</option>
+		 <option value="north dakota">ND</option>
+		 <option value="northern mariana islands">MP</option>
+		 <option value="ohio">OH</option>
+		 <option value="oklahoma">OK</option>
+		 <option value="oregon">OR</option>
+		 <option value="palau">PW</option>
+		 <option value="pennsylvania">PA</option>
+		 <option value="puerto rico">PR</option>
+		 <option value="rhode island">RI</option>
+		 <option value="south carolina">SC</option>
+		 <option value="south dakota">SD</option>
+		 <option value="tennessee">TN</option>
+		 <option value="texas">TX</option>
+		 <option value="utah">UT</option>
+		 <option value="vermont">VT</option>
+		 <option value="virgin islands">VI</option>
+		 <option value="virginia">VA</option>
+		 <option value="washington">WA</option>
+		 <option value="west virginia">WV</option>
+		 <option value="wisconsin">WI</option>
+		 <option value="wyoming">WY</option>
+		  </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
